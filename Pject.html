@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<style> 
+html { 
+  background: url(gradient.jpg) no-repeat center fixed; 
+  background-size: cover;
+}
+
+body { 
+  color: white; 
+}
+
+</style>
+
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("gradient.jpg");
+  
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+</style>
+</head>
+
+
+<html>
+<title>Gail.com</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+.w3-quarter img{margin-bottom: -6px; cursor: pointer}
+.w3-quarter img:hover{opacity: 0.6; transition: 0.3s}
+</style>
+<body class="w3-light-grey">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-animate-right w3-top w3-text-light-grey w3-large" style="z-index:3;width:250px;font-weight:bold;display:none;right:0;" id="mySidebar">
+  <a href="javascript:void()" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-32">CLOSE</a>
+<a href="file:///C:/Users/Arlene/Desktop/Home.html" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">HOME</a>   
+  <a href="file:///C:/Users/Arlene/Desktop/Pject.html" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">PORTFOLIO</a> 
+  <a href="file:///C:/Users/Arlene/Desktop/About%20me%20page.html" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">ABOUT ME</a> 
+  <a href="file:///C:/Users/Arlene/Desktop/word%20resume.pdf" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">RESUME</a>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-white w3-xlarge w3-padding-16">
+  <span class="w3-left w3-padding">Welcome!</span>
+   <img src="g-clef.jpg" style="width:50px;height:42px;border:0">
+  <a href="javascript:void(0)" class="w3-right w3-button w3-white" onclick="w3_open()">?</a>
+  
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content" style="max-width:1600px;margin-top:83px">
+
+
+  <!-- Pagination -->
+  <!-- Buttons -->
+	<style>
+.btn {
+    background-color:#555555; /* Black */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	 opacity: 1;
+  transition: 0.3s;
+	
+}
+.button3 {border-radius: 8px;}
+.btn:hover {opacity: 0.6}
+</style>
+</head>
+
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+	
+  <a href="file:///C:/Users/Arlene/Desktop/My%20School.html" <button class="btn">My School</button></a>
+  <a href="file:///C:/Users/Arlene/Desktop/Bucket%20list.html"<button class="btn">Bucket List</button></a>
+
+ </div>
+  </div>
+
+<!-- My Projects Compilation -->
+
+
+<center> <h1> My Projects </h1> </center>
+
+
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: Arial;
+}
+
+/* Center website */
+.main {
+    max-width: 900px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
+
+.row {
+    margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 40%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 50%;
+    }
+}
+</style>
+<body>
+
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+
+<h2>Travels</h2>
+<p>A life, not only to explore but also to enjoy.</p>
+
+<!-- Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <a href="https://github.com/Gaileeee08/CC2Projects"> 
+<img border="0" alt="W3Schools" src="BuildRun.gif" width="300" height="300"> 
+</a>
+<h3>Java Codes</h3>
+      <p> 	Java programming: Java program code consists of instructions which will be executed on your computer system to perform a task as an example say arrange given integers in ascending order. This page contains sample programs for beginners to understand how to use Java programming to write simple Java programs.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <a href="https://github.com/Gaileeee08/CC1-HTML-Codes">
+<img border="0" alt="W3Schools" src="giphy.gif" width="300" height="300">
+</a>
+      <h3>Html Codes</h3>
+      <p>Hypertext Markup Language (HTML) is the standard markup language for creating web pages and web applications. With Cascading Style Sheets (CSS) and JavaScript, it forms a triad of cornerstone technologies for the World Wide Web.
+	  Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document. </p>
+    </div>
+  </div>
+  <center> <div class="column">
+    <div class="content">
+   <a href="file:///C:/Users/Arlene/Desktop/BEYOND-GRUDGES-AND-DREAMS.pdf">
+<img border="0" alt="W3Schools" src="CC7.gif" width="300" height="300">
+</a>
+  
+      <h3>CC7</h3>
+      <p>Human-Computer Interaction (HCI) is a multidisciplinary field of study focusing on the design of computer technology and, in particular, the interaction between humans (the users) and computers. While initially concerned with computers, HCI has since expanded to cover almost all forms of information technology design.</p>
+    </div>
+  </div> <center>
+  
+<!-- END GRID -->
+
+
+
+</div>
+
+</body>
+</html>
+
+
+
+  
+  
+  <div class="w3-black w3-center w3-padding-24">Thanks to <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></div>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+</script>
+
+
+</body>
+</html>
